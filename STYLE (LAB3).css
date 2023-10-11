@@ -1,0 +1,24 @@
+#table1 {
+    width: 75%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#table1, #th, #td {
+  border:2px solid black;
+}
+#th {
+    background-color:lightgray
+}
+#th, #td{ 
+    padding: 10px;
+}
+
+.img1,.img2,.img3 {
+    width:150pt;
+    border: 5px red;
+    border-style: dashed;
+    padding: 30px
+}
