@@ -2,13 +2,100 @@
 <html>
 <head>
     <title> Personal Portfolio</title>
+    <link id="csspage" href="style.css">
+    <style>
+        #table1 {
+            width: 75%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+
+        }
+        #table1, #th, #td {
+          border:2px solid black;
+        }
+        #th {
+            background-color:lightgray
+        }
+        #th, #td{ 
+            padding: 10px;
+        }
+        </style>
 </head>
-<body style="background-color:bisque"> 
+
+<body style="background-color:cadetblue"> 
     <h1 style="font-style: inherit; text-align: center;"> Tanaya Shenvi Kuvelkar  </h1>
-    <h3 style="color:darkolivegreen; text-align: center;"> NJIT, tys, 5 year B.Arch program</h3>
-    <p style="color:darkgreen"> Hello! My name is Tanaya Kuvelkar. I am an out of state student, coming from Connecticut and my family is from India. My birthday is in Decemember, but my favorite season has got to be fall. I love all the pretty colors and the weather is just right. I am a very musically inclined person, for I enjoy singing, playin the piano, dancing in musials, all sort of things. I like to spend my time travelling, hiking, making new friends... I'm a very outdoorsy and outgoing person. But that being said, I also do appreciate those moments when I'm at home and relaxed with my family and friends. In my free time, I'm a person who likes to learn different things, whether that be a new piano song, or croteching a different design. I also really like to watch movies and fully judge them. It's really fun. </p>
+    <h3 style="color:   rgb(13, 17, 120); text-align: center;"> NJIT, tys, 5 year B.Arch program</h3>
+    <p style="color:rgb(6, 24, 58)"> Hello! My name is Tanaya Kuvelkar. I am an out of state student, coming from Connecticut and my family is from India. My birthday is in Decemember, but my favorite season has got to be fall. I love all the pretty colors and the weather is just right. I am a very musically inclined person, for I enjoy singing, playing the piano, dancing in musials... honestly all sort of things. I like to spend my time travelling, hiking, and making new friends... I'm a very outdoorsy and outgoing person. But that being said, I also do appreciate those moments when I'm at home and relaxed with my family and friends. In my free time, I'm a person who likes to learn different things, whether that be a new piano song, or croteching a different design. I also really like to watch movies and fully judge them. It's really fun. </p>
     <a href="https://www.njit.edu/"></a>
-    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/2880px-Flag_of_India.svg.png"atl="IndianFlag" style="width:300px;height:200px"></img>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/2880px-Flag_of_India.svg.png" atl="IndianFlag" style="width:300px;height:200px"></img>
+
+<div> 
+    <h2>Form To Fill Out </h2>
+    <form>
+        <label for="uname">Username:</label><br>
+        <input type="text"  id="uname" name="uname"><br>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"> Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="checkbox" id= "subject1" name="subject1">
+        <label for="subject1">Math</label><br>
+        <input type="checkbox" id= "subject2" name="subject2">
+        <label for="subject2">Architecture</label><br>
+        <input type="checkbox" id= "subject3" name="subject3">
+        <label for="subject1">Computer Science</label><br>
+        <input type="radio" id= "subject1" name="subject1">
+        <label for="subject1">Math</label><br>
+        <input type="radio" id= "subject2" name="subject2">
+        <label for="subject2">Architecture</label><br>
+        <input type="radio" id= "subject3" name="subject3">
+        <label for="subject1">Computer Science</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div> 
+        <h2>My Past Life </h2>
+        <table id="table1" >
+        <tr>
+            <th id="th">Education</th>
+            <th id="th">Experience</th>
+            <th id="th">Skills</th>
+        </tr>
+        <tr>
+            <td id="td">Simsbury High School</td>
+            <td id="td">Work at Winged Bear</td>
+            <td id="td">Cooking</td>
+        </tr>
+        <tr>
+            <td id="td">NJIT</td>
+            <td id="td">Babysitting</td>
+            <td id="td">Woodshop</td>
+        </tr>
+    </table>
+</div>
+<div> 
+    <h2> My Classes This Semester</h2>
+    <ul>
+        <li>Architecure Lecture and Studio</li>
+        <li>Computer Science </li>
+        <li>Statistics (Math 105)</li>
+        <li>First Year Seminar</li>
+      </ul>
+</div>
+<div>
+    <img class="img1" src="C:\Users\tanay\OneDrive\Documents\Simsbury_High_CS.JPG" alt="simsbury high school" height="50">
+    <img class="img2" src="C:\Users\tanay\OneDrive\Documents\weston-hall CS.jpg" alt="NJIT" height="155">
+    <img class="img3" src="C:\Users\tanay\OneDrive\Documents\PIANO for cs.jpg" alt="piano" height="130">
+    <style>.img1,.img2,.img3 {
+        width:150pt;
+        border: 5px red;
+        border-style: dashed;
+        padding: 30px
+    }
+    </style>
+</div>  
 
 </body>
-</html>
+</html> 
